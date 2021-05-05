@@ -1,0 +1,26 @@
+.container {
+  width: 90%;
+}
+@mixin flex($justify, $align, $direction) {
+  display: flex;
+  justify-content: $justify;
+  align-items: $align;
+  flex-direction: $direction;
+}
+
+@mixin btn($background, $color) {
+  flex: 0 0 48%;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 30px;
+  border: 1px solid $color;
+  background: $background;
+  color: $color;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  &:hover {
+    background: $color;
+    color: $background;
+  }
+}
