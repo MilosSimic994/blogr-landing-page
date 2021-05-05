@@ -20,8 +20,8 @@ dd {
 }
 
 /* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
-ul[role=list],
-ol[role=list] {
+ul[role="list"],
+ol[role="list"] {
   list-style: none;
 }
 
@@ -48,12 +48,3 @@ picture {
   max-width: 100%;
   display: block;
 }
-
-header {
-  background-image: linear-gradient(#ff8f70, #ff3d54), url(/images/bg-pattern-intro.svg);
-  background-position: center;
-  background-size: cover;
-  height: 70vh;
-}
-
-/*# sourceMappingURL=style.css.map */

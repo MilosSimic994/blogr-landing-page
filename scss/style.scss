@@ -1,4 +1,4 @@
-header {
-  background-image: url(/images/bg-pattern-intro.svg);
-  background-color: rgba(255, 0, 0, 0.123);
-}
+@import "basic/reset";
+@import "basic/variable";
+
+@import "layout/header";
