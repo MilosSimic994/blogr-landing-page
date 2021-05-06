@@ -35,6 +35,10 @@ body {
   min-height: 100vh;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Overpass", sans-serif;
 }
 
 /* Remove underline on A elements */
@@ -47,4 +51,12 @@ img,
 picture {
   max-width: 100%;
   display: block;
+}
+h2 {
+  font-size: 1.8rem;
+  color: $VeryDarkBlue;
+}
+h3 {
+  font-size: 1.6rem;
+  color: $VeryDarkBlue;
 }

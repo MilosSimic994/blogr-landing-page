@@ -15,6 +15,7 @@ header {
   nav {
     width: 100%;
     @include flex(space-between, center, row);
+    margin-bottom: 50px;
   }
 
   p {
@@ -24,6 +25,7 @@ header {
 
   .btn-control {
     @include flex(space-between, center, row);
+    width: 100%;
     padding: 40px 0;
     button:first-of-type {
       @include btn(white, $VeryLightRed);

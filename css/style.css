@@ -1,6 +1,6 @@
-/* Box sizing rules */
 @import url("https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap");
+/* Box sizing rules */
 *,
 *::before,
 *::after {
@@ -37,6 +37,10 @@ body {
   min-height: 100vh;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Overpass", sans-serif;
 }
 
 /* Remove underline on A elements */
@@ -51,8 +55,23 @@ picture {
   display: block;
 }
 
+h2 {
+  font-size: 1.8rem;
+  color: #1f3f5b;
+}
+
+h3 {
+  font-size: 1.6rem;
+  color: #1f3f5b;
+}
+
 .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   width: 90%;
+  padding: 40px 0;
 }
 
 header {
@@ -76,6 +95,7 @@ header nav {
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
+  margin-bottom: 50px;
 }
 header p {
   font-weight: 400;
@@ -86,6 +106,7 @@ header .btn-control {
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
+  width: 100%;
   padding: 40px 0;
 }
 header .btn-control button:first-of-type {
@@ -119,6 +140,30 @@ header .btn-control button:last-of-type {
 header .btn-control button:last-of-type:hover {
   background: white;
   color: transparent;
+}
+
+.future {
+  text-align: center;
+  margin: 50px 0;
+  position: relative;
+}
+.future img {
+  margin: 50px 0;
+  width: 110%;
+  transform: scale(1.15);
+}
+.future article {
+  padding: 0 30px;
+}
+.future article h3 {
+  padding: 20px 0;
+}
+.future article p {
+  color: #4b5862;
+  line-height: 1.6;
+}
+.future article:last-of-type {
+  margin-top: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */
