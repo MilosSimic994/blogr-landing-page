@@ -166,4 +166,32 @@ header .btn-control button:last-of-type:hover {
   margin-top: 10px;
 }
 
+.art {
+  margin-top: 200px;
+  background-color: #3f4164;
+  background-image: url(/images/bg-pattern-circles.svg);
+  background-position: top -220px;
+  background-size: 180%;
+  height: 80vh;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  background-clip: padding-box;
+}
+.art .circle {
+  background-color: rgba(69, 71, 110, 0.712);
+  width: 90%;
+  height: 60%;
+  border-radius: 100%;
+  position: absolute;
+  top: -80px;
+  left: 50%;
+  transform: translate(-50%);
+}
+.art img {
+  margin-top: -200px;
+  position: relative;
+  z-index: 5;
+}
+
 /*# sourceMappingURL=style.css.map */
