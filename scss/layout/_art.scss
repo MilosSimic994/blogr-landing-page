@@ -1,14 +1,26 @@
 .art {
+  @include flex(flex-start, center, column);
   margin-top: 200px;
-  background-color: hsl(237, 23%, 32%);
+  background-color: hsl(237, 30%, 46%);
   background-image: url(/images/bg-pattern-circles.svg);
-  background-position: top -220px;
-  background-size: 180%;
-  height: 80vh;
-  width: 100%;
-  overflow: hidden;
-  position: relative;
-  background-clip: padding-box;
+  background-repeat: no-repeat;
+  background-position: center -230px;
+  background-size: 160%;
+  height: 90vh;
+
+  border-top-right-radius: 20%;
+  border-bottom-left-radius: 20%;
+  color: $GrayishBlue;
+  text-align: center;
+
+  h3 {
+    color: #fff;
+    font-size: 2.2rem;
+    padding-bottom: 20px;
+  }
+  p {
+    font-size: 1.2rem;
+  }
 
   .circle {
     background-color: hsla(237, 23%, 35%, 0.712);
