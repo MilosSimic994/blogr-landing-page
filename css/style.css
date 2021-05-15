@@ -191,20 +191,32 @@ header .btn-control button:last-of-type:hover {
 .art p {
   font-size: 1.2rem;
 }
-.art .circle {
-  background-color: rgba(69, 71, 110, 0.712);
-  width: 90%;
-  height: 60%;
-  border-radius: 100%;
-  position: absolute;
-  top: -80px;
-  left: 50%;
-  transform: translate(-50%);
-}
 .art img {
   margin-top: -200px;
   position: relative;
   z-index: 5;
+}
+
+.simple {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 40px 0;
+  text-align: center;
+}
+.simple img {
+  margin: 20px 0;
+}
+.simple article {
+  padding: 30px 0;
+}
+.simple article h3 {
+  padding-bottom: 20px;
+}
+.simple article p {
+  color: #4b5862;
+  font-size: 1.2rem;
 }
 
 /*# sourceMappingURL=style.css.map */
