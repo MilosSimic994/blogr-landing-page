@@ -1,0 +1,28 @@
+footer {
+  @include flex(space-evenly, center, column);
+  height: 100vh;
+  width: 100%;
+  background-color: $VeryDarkBlackBlue;
+  border-top-right-radius: 15%;
+  color: $GrayishBlue;
+  text-align: center;
+
+  ul {
+    width: 30%;
+    font-weight: 600;
+
+    li:first-of-type {
+      margin-bottom: 15px;
+      color: #fff;
+    }
+    li {
+      padding: 2px 0;
+      a {
+        display: inline-block;
+        color: $GrayishBlue;
+        padding: 0;
+        margin: 0;
+      }
+    }
+  }
+}
