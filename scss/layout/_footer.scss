@@ -1,11 +1,12 @@
 footer {
   @include flex(space-evenly, center, column);
-  height: 100vh;
+  height: 120vh;
   width: 100%;
   background-color: $VeryDarkBlackBlue;
   border-top-right-radius: 15%;
   color: $GrayishBlue;
   text-align: center;
+  padding: 30px 0;
 
   ul {
     width: 30%;
