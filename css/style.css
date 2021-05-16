@@ -263,7 +263,7 @@ footer ul li a {
   top: 100px;
   left: 50%;
   transform: translate(-50%);
-  background-color: #b18181;
+  background-color: #9b2a2a;
   width: 90%;
   height: 100vh;
   overflow: hidden;
@@ -273,6 +273,19 @@ footer ul li a {
   justify-content: space-between;
   align-items: center;
   flex-direction: column;
+  width: 85%;
+}
+.menu-mob ul li {
+  width: 100%;
+}
+.menu-mob .sub-menu {
+  background-color: #fff;
+  color: #4b5862;
+  width: 100%;
+  display: none;
+}
+.menu-mob .visible {
+  display: flex;
 }
 
 /*# sourceMappingURL=style.css.map */

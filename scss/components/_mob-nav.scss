@@ -4,11 +4,26 @@
   top: 100px;
   left: 50%;
   transform: translate(-50%);
-  background-color: rgb(177, 129, 129);
+  background-color: rgb(155, 42, 42);
   width: 90%;
   height: 100vh;
   overflow: hidden;
   ul {
     @include flex(space-between, center, column);
+    width: 85%;
+
+    li {
+      width: 100%;
+    }
+  }
+  .sub-menu {
+    background-color: #fff;
+    color: $DarkGrayishBlue;
+    width: 100%;
+    display: none;
+  }
+
+  .visible {
+    display: flex;
   }
 }
