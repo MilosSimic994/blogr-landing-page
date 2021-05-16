@@ -13,6 +13,7 @@
   overflow: hidden;
   border-radius: 10px;
   box-shadow: 0 10px 20px 10px rgba(128, 128, 128, 0.527);
+  display: none;
   ul {
     @include flex(space-evenly, center, column);
     width: 85%;
@@ -65,4 +66,8 @@
       border-radius: 40px;
     }
   }
+}
+
+.visible {
+  display: flex;
 }

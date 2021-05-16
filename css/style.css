@@ -272,6 +272,7 @@ footer ul li a {
   overflow: hidden;
   border-radius: 10px;
   box-shadow: 0 10px 20px 10px rgba(128, 128, 128, 0.527);
+  display: none;
 }
 .menu-mob ul {
   display: flex;
@@ -322,6 +323,10 @@ footer ul li a {
   color: #fff;
   padding: 10px 40px;
   border-radius: 40px;
+}
+
+.visible {
+  display: flex;
 }
 
 /*# sourceMappingURL=style.css.map */
