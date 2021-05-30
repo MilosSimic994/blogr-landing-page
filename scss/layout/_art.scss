@@ -8,23 +8,49 @@
   background-size: 160%;
   height: 90vh;
 
-  border-top-right-radius: 20%;
-  border-bottom-left-radius: 20%;
+  border-top-right-radius: 80px;
+  border-bottom-left-radius: 80px;
   color: $GrayishBlue;
   text-align: center;
 
+  @include tab {
+    height: 30vh;
+  }
+
+  .container {
+    @include containerDesk;
+    @include tab {
+      @include flex(center, center, row);
+      height: 100%;
+    }
+    div {
+      flex: 0 0 60%;
+      text-align: left;
+    }
+  }
   h3 {
     color: #fff;
     font-size: 2.2rem;
     padding-bottom: 20px;
+    @include tab {
+      font-size: 2rem;
+    }
   }
   p {
     font-size: 1.2rem;
+    @include tab {
+      font-size: 1rem;
+      padding-right: 20px;
+    }
   }
 
   img {
     margin-top: -200px;
     position: relative;
     z-index: 5;
+    @include tab {
+      margin-top: -50px;
+      height: 240%;
+    }
   }
 }

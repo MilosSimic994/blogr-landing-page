@@ -235,23 +235,61 @@ header .btn-control button:last-of-type:hover {
   background-position: center -230px;
   background-size: 160%;
   height: 90vh;
-  border-top-right-radius: 20%;
-  border-bottom-left-radius: 20%;
+  border-top-right-radius: 80px;
+  border-bottom-left-radius: 80px;
   color: #c8c8cb;
   text-align: center;
+}
+@media screen and (min-width: 1024px) {
+  .art {
+    height: 30vh;
+  }
+}
+.art .container {
+  width: 80%;
+}
+@media screen and (min-width: 1024px) {
+  .art .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 100%;
+  }
+}
+.art .container div {
+  flex: 0 0 60%;
+  text-align: left;
 }
 .art h3 {
   color: #fff;
   font-size: 2.2rem;
   padding-bottom: 20px;
 }
+@media screen and (min-width: 1024px) {
+  .art h3 {
+    font-size: 2rem;
+  }
+}
 .art p {
   font-size: 1.2rem;
+}
+@media screen and (min-width: 1024px) {
+  .art p {
+    font-size: 1rem;
+    padding-right: 20px;
+  }
 }
 .art img {
   margin-top: -200px;
   position: relative;
   z-index: 5;
+}
+@media screen and (min-width: 1024px) {
+  .art img {
+    margin-top: -50px;
+    height: 240%;
+  }
 }
 
 .simple {
