@@ -21,6 +21,10 @@
     color: $background;
   }
 }
+
+@mixin containerMob {
+  width: 80%;
+}
 .container {
   @include flex(center, center, column);
   width: 90%;
