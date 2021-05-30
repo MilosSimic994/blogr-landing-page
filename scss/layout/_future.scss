@@ -3,13 +3,38 @@
   margin: 50px 0;
   position: relative;
 
+  @include tab {
+    width: 100%;
+    overflow: hidden;
+  }
+
+  &__control {
+    @include tab {
+      @include flex(center, center, row-reverse);
+      @include containerDesk;
+      margin-top: 50px;
+    }
+  }
+
   img {
     margin: 50px 0;
     width: 100%;
     transform: scale(1.1);
+
+    @include tab {
+      position: absolute;
+      right: -35px;
+      width: 44%;
+      margin: 0;
+    }
   }
   article {
     padding: 0 30px;
+    @include tab {
+      text-align: left;
+      width: 56%;
+    }
+
     h3 {
       padding: 20px 0;
     }

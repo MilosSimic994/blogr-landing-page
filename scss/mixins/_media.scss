@@ -1,4 +1,4 @@
-@mixin desk {
+@mixin tab {
   @media screen and (min-width: 1024px) {
     @content;
   }

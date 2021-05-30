@@ -174,13 +174,43 @@ header .btn-control button:last-of-type:hover {
   margin: 50px 0;
   position: relative;
 }
+@media screen and (min-width: 1024px) {
+  .future {
+    width: 100%;
+    overflow: hidden;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .future__control {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    width: 80%;
+    margin-top: 50px;
+  }
+}
 .future img {
   margin: 50px 0;
   width: 100%;
   transform: scale(1.1);
 }
+@media screen and (min-width: 1024px) {
+  .future img {
+    position: absolute;
+    right: -35px;
+    width: 44%;
+    margin: 0;
+  }
+}
 .future article {
   padding: 0 30px;
+}
+@media screen and (min-width: 1024px) {
+  .future article {
+    text-align: left;
+    width: 56%;
+  }
 }
 .future article h3 {
   padding: 20px 0;
